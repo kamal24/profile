@@ -4,6 +4,10 @@ import {Button} from 'antd';
 import MenuComponent from './MenuComponent';
 import SiderComponent from './SiderComponent';
 import HomeComponent from './HomeComponent';
+import {Route, Switch, Redirect} from 'react-router-dom';
+import ContactComponent from './ContactComponent';
+import PortfolioComponent from './PortfolioComponent';
+import ResumeComponent from './ResumeComponent';
 
 const {Header, Content, Footer, Sider} = Layout;
 
@@ -20,7 +24,17 @@ class MainComponent extends Component{
                         <MenuComponent />
                     </Header>
                     <Content style={{ paddingTop: 24}}>
-                            <HomeComponent />
+
+                        
+                        <Switch>
+                            <Route path="/home" exact component={HomeComponent}></Route>
+                            <Route path="/portfolio" exact component={PortfolioComponent}></Route>
+                            <Route path="/contact" exact component={ContactComponent}></Route>
+                            <Route path="/resume" exact component={ResumeComponent}></Route>
+                            <Route path="/blog" exact component={HomeComponent}></Route>
+                            <Redirect to="/home" />
+                        </Switch>
+                       
                     </Content>  
                 </Layout>
                 
