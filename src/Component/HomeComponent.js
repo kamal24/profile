@@ -14,7 +14,7 @@ class HomeComponent extends Component{
                     <p>I am software developer having 5.5 years of experience in IT industry. Have experience to work in challenging enviroment,
                         latest technologies and freelancing projects. I have keen interest in blockchain, ML, AI, cloud technolgies, flutter, microservice 
                         architecture, system design. 
-                        My future plan is to have my own startup which can solve society problem and I am working towards it. If you have some idea then you can 
+                        My future plan is to have my own startup which can solve real world problem and I am working towards it. If you have some idea then you can 
                         drop mail to kmlgrg2425@gmail.com and I am love to hear about your idea. If I like your idea then can work together.
                     </p>
                 </Row>
