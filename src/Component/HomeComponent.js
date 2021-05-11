@@ -23,7 +23,7 @@ class HomeComponent extends Component{
                 <Row gutter="16">   
                     <Col md={6}>
                         <Card>
-                            <Icon type="global" style={{fontSize:64}}></Icon>
+                            <Icon type="laptop" style={{fontSize:64, color:'#8A2BE2', margin:10, alignContent: 'center'}}></Icon>
                             <h2>Web APP Development</h2>
                             <p>I am full stack developer who can work on front end and back end both. I have knowledge web based framework like
                                 wordpress, Joomla, Spring web framework. I have experience to work in cloud enviroment and apps are cloud friendly.
@@ -34,7 +34,7 @@ class HomeComponent extends Component{
 
                     <Col md={6}>
                         <Card>
-                            <Icon type="global" style={{fontSize:64}}></Icon>
+                            <Icon type="mobile" style={{fontSize:64, color:'#8A2BE2', margin:10, alignContent: 'center'}}></Icon>
                             <h2>Mobile APP Development</h2>
                             <p>I have keen interest in developing cross platform mobile apps by using flutter. I use android for native APP development. 
                                 IOS is my future plan to learn for native app development.
@@ -44,7 +44,7 @@ class HomeComponent extends Component{
 
                     <Col md={6}>
                         <Card>
-                            <Icon type="global" style={{fontSize:64}}></Icon>
+                            <Icon type="code" style={{fontSize:64, color:'#8A2BE2', margin:10, alignContent: 'center'}}></Icon>
                             <h2>API Development</h2>
                             <p>I helped many teams to develop rest API by using spring boot and node.js. APIs are developed in microservices and 
                                 these are deployed to cloud.
@@ -55,7 +55,7 @@ class HomeComponent extends Component{
                     
                     <Col md={6}>
                       <Card>
-                            <Icon type="global" style={{fontSize:64}}></Icon>
+                            <Icon type="global" style={{fontSize:64, color:'#8A2BE2', margin:10, alignContent: 'center'}}></Icon>
                             <h2>Fast Delivery</h2>
                             <p>Freelancing demand fast delivery and I believe in that also. Try to delivery the work as soon as possible.</p>
                         </Card>

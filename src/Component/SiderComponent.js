@@ -5,7 +5,7 @@ class SiderComponent extends Component{
     render(){
         return (
             <Card>
-                    <Avatar shape="circle" size={128}  src="profile/img/profile.jpg"></Avatar>
+                    <Avatar shape="circle" size={150}  src="profile/img/profile.jpg"></Avatar>
 
                     <Timeline style={{marginTop:20}}>
                         <Timeline.Item dot={<Icon type="eye" style={{fontSize:24}}></Icon>}>Info</Timeline.Item>
