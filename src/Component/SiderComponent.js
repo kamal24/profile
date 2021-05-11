@@ -5,7 +5,7 @@ class SiderComponent extends Component{
     render(){
         return (
             <Card>
-                    <Avatar shape="circle" size={128}  src="img/profile.jpg"></Avatar>
+                    <Avatar shape="circle" size={128}  src="profile/img/profile.jpg"></Avatar>
 
                     <Timeline style={{marginTop:20}}>
                         <Timeline.Item dot={<Icon type="eye" style={{fontSize:24}}></Icon>}>Info</Timeline.Item>
@@ -15,7 +15,7 @@ class SiderComponent extends Component{
                         <Timeline.Item>Email: kmlgrg2425@gmail.com</Timeline.Item>
                     </Timeline>
 
-                    <Button type="primary" className="center" href="Resume/resume.PDF">Download CV</Button>
+                    <Button type="primary" className="center" href="profile/Resume/resume.PDF">Download CV</Button>
             </Card>      
         );
     }
