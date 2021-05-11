@@ -11,7 +11,7 @@ class ContactComponent extends Component{
             <Card>
                 <h1>Welcome to Contact Page</h1>
                 <Row>
-
+                    You can contact me at +919742368666 or kmlgrg2425@gmail.com
                 </Row>
             </Card>
         )

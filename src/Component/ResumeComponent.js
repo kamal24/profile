@@ -16,8 +16,9 @@ class ResumeComponent extends Component{
                             <Timeline style={{marginTop:20}}>
                                 <Timeline.Item dot={<Icon type="laptop" style={{fontSize:30}} ></Icon>}><span style={{margin:15}}>Working History</span></Timeline.Item>
                                 <Timeline.Item><h3>Freelancer</h3><h4>2015-Present</h4></Timeline.Item>
-                                <Timeline.Item><h3>Edgeverve</h3><h4>2018-Present</h4></Timeline.Item>
-                                <Timeline.Item><h3>Infosys</h3><h4>2015-2018</h4></Timeline.Item>
+                                <Timeline.Item><h3>IBM</h3><h4>Mar,2020-Present</h4></Timeline.Item>
+                                <Timeline.Item><h3>BNY Mellon</h3><h4>May,2019-Mar,2020</h4></Timeline.Item>
+                                <Timeline.Item><h3>Infosys and Edgeverve</h3><h4>Nov,2015-Apr,2019</h4></Timeline.Item>
                             </Timeline>
                         </Card>
                     </Col>

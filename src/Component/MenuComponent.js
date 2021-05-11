@@ -19,7 +19,7 @@ class MenuComponent extends Component{
                     <Menu.Item><NavLink to="/resume">RESUME</NavLink></Menu.Item>
                     <Menu.Item><NavLink to="/portfolio">PORTFOLIO</NavLink></Menu.Item>
                     <Menu.Item><NavLink to="/blog">BLOG</NavLink></Menu.Item>
-                    <Menu.Item><NavLink to="/contact">CONTACT</NavLink></Menu.Item>
+                    <Menu.Item><NavLink to="/contact">CONTACT US</NavLink></Menu.Item>
                 </Menu>
 
               
